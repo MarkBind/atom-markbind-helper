@@ -1,9 +1,11 @@
 {
   "name": "markbind-helper",
   "main": "./lib/markbind-helper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom helper for MarkBind providing easy command executions.",
-  "keywords": ["markbind"],
+  "keywords": [
+    "markbind"
+  ],
   "activationCommands": {
     "atom-workspace": [
       "markbind-helper:include",
