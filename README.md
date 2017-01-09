@@ -1,5 +1,5 @@
-# markbind-helper package
+# MarkBind Helper
+This package allows you to run [MarkBind](https://github.com/MarkBind/markbind-cli) command at ease with Atom.
 
-A short description of your package.
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+### Usage
+Open the file you wish to run MarkBind on (currently only markdown or HTML file is supported), press `Cmd+Shift+P` to bring up the Command Palette, type "include" or "render" and find the corresponding MarkBind command you wish to run. The result will be shown in a new tab.
