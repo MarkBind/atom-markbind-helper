@@ -1,0 +1,24 @@
+{
+  "context-menu": {
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "MarkBind Helper",
+          "submenu": [
+            {
+              "label": "Include",
+              "command": "markbind-helper:include"
+            },
+            {
+              "label": "Render",
+              "command": "markbind-helper:render"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

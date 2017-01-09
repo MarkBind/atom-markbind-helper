@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-shift-i": "markbind-helper:include",
+    "ctrl-shift-r": "markbind-helper:render"
+  }
+}

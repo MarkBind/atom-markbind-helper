@@ -1,0 +1,21 @@
+{
+  "name": "markbind-helper",
+  "main": "./lib/markbind-helper",
+  "version": "0.1.0",
+  "description": "Atom helper for MarkBind providing easy command executions.",
+  "keywords": ["markbind"],
+  "activationCommands": {
+    "atom-workspace": [
+      "markbind-helper:include",
+      "markbind-helper:render"
+    ]
+  },
+  "repository": "https://github.com/MarkBind/atom-markbind-helper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "markbind": "^1.0.2"
+  }
+}
