@@ -8,6 +8,10 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+bluebird@^3.4.7:
+  version "3.4.7"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.7.tgz#f72d760be09b7f76d08ed8fae98b289a8d05fab3"
+
 boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
@@ -163,10 +167,11 @@ lodash@^4.17.2:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-markbind@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/markbind/-/markbind-1.0.3.tgz#14fad512d0ca987b4d98c2f067d4c95732fa23d9"
+markbind@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/markbind/-/markbind-1.0.5.tgz#2151dfaa37d6faba0beaed25598145f14a975a0d"
   dependencies:
+    bluebird "^3.4.7"
     cheerio "^0.22.0"
     htmlparser2 "^3.9.2"
     lodash "^4.17.2"
